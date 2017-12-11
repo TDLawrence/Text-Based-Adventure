@@ -13,7 +13,7 @@ public class happyFAce {
 		smileArray[4][1]=1;
 		smileArray[4][2]=1;
 		smileArray[4][3]=1;
-		
+		print2d(smileArray);
 			
 		}
 		public static void print2d(int[][]arr)
@@ -24,9 +24,9 @@ public class happyFAce {
 		    if (j==0)
 		      {System.out.print(" ");} 
 		   }
-			
+		    System.out.println();
 		 }
-			System.out.println();
+			
 		}
 	}
 
